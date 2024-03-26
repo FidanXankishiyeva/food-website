@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.container #food-page {
+  width: 100%;
+  padding: 121px 152px 137px 152px;
+  background: var(--Neutral-02, #f9f9f7);
+}
+.container #food-page .title-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.container #food-page .title-box h1 {
+  color: var(--Neutral-07, #2c2f24);
+  font-family: "Playfair Display";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+}
+.container #food-page .title-box button {
+  padding: 20px 32px;
+  border-radius: 118px;
+  background: #ad343e;
+}
+.container #food-page .title-box button a {
+  color: var(--Neutral-01, #fff);
+  text-align: right;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.container #food-page .food-about {
+  display: flex;
+  justify-content: space-between;
+}
+.container #food-page .food-about .burger-box {
+  width: 636px;
+  border-radius: 12px;
+  border: 1px solid var(--Neutral-02, #f9f9f7);
+  background: var(--Neutral-01, #fff);
+  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+}
+.container #food-page .food-about .burger-box .text-box {
+  padding: 15px 33px 53px 35px;
+}
+.container #food-page .food-about .burger-box .text-box h2 {
+  color: var(--Neutral-05, #737865);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.container #food-page .food-about .burger-box .text-box p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--Neutral-07, #2c2f24);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.container #food-page .food-about .burger-box .text-box span {
+  color: var(--Neutral-06, #414536);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container #food-page .food-about ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 24px;
+  grid-gap: 24px;
+}
+.container #food-page .food-about ul li {
+  border-radius: 12px;
+  border: 1px solid var(--Neutral-02, #f9f9f7);
+  background: var(--Neutral-01, #fff);
+  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+}
+.container #food-page .food-about ul li img {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+.container #food-page .food-about ul li .foods {
+  padding: 30px 25px 14px;
+}
+.container #food-page .food-about ul li .foods h3 {
+  color: var(--Neutral-05, #737865);
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.container #food-page .food-about ul li .foods p {
+  color: var(--Neutral-07, #2c2f24);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}/*# sourceMappingURL=index.css.map */

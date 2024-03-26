@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.container {
+  #food-page {
+    width: 100%;
+    padding: 121px 152px 137px 152px;
+    background: var(--Neutral-02, #f9f9f7);
+    .title-box {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 64px;
+      h1 {
+        color: var(--Neutral-07, #2c2f24);
+        font-family: "Playfair Display";
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60.5px;
+      }
+
+      button {
+        padding: 20px 32px;
+        border-radius: 118px;
+        background: #ad343e;
+        a {
+          color: var(--Neutral-01, #fff);
+          text-align: right;
+          font-family: "DM Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .food-about {
+      display: flex;
+      justify-content: space-between;
+      .burger-box {
+        width: 636px;
+        border-radius: 12px;
+        border: 1px solid var(--Neutral-02, #f9f9f7);
+        background: var(--Neutral-01, #fff);
+        box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+        .text-box {
+          padding: 15px 33px 53px 35px;
+          h2 {
+            color: var(--Neutral-05, #737865);
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          p {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: var(--Neutral-07, #2c2f24);
+            font-family: "DM Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+          }
+          span {
+            color: var(--Neutral-06, #414536);
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        // display: grid;
+        // grid-template-columns: 1fr 1fr;
+        margin-left: 24px;
+        grid-gap: 24px;
+        li {
+          // width: 306px;
+          border-radius: 12px;
+          border: 1px solid var(--Neutral-02, #f9f9f7);
+          background: var(--Neutral-01, #fff);
+          box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+          img {
+            width: 100%;
+            border-radius: 12px 12px 0px 0px;
+          }
+          .foods {
+            padding: 30px 25px 14px;
+            h3 {
+              color: var(--Neutral-05, #737865);
+              font-family: "DM Sans";
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 20px;
+            }
+
+            p {
+              color: var(--Neutral-07, #2c2f24);
+              font-family: "DM Sans";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
